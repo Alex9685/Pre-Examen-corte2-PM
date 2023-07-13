@@ -8,3 +8,4 @@ public interface ProjectionInterface {
     List<Usuario> allUsuarios();
     Usuario readUsuario(Cursor cursor);
 }
+
