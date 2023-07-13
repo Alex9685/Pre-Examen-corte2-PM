@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AgregarUsuarioActivity">
+
+    <TextView
+        android:id="@+id/textViewTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Empresas Industriales de Mexico"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/textViewTitulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de usuario"/>
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Correo electrónico"/>
+
+    <EditText
+        android:id="@+id/etComtraseña1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        android:hint="Contraseña"/>
+
+    <EditText
+        android:id="@+id/etComtraseña2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Re escriba la contraseña"/>
+
+    <LinearLayout
+        android:layout_width="700px"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegistro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:onClick="registrarse"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Registrarse"
+            android:layout_marginLeft="8dp"/>
+
+        <Button
+            android:id="@+id/btnRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Regresar"
+            android:onClick="regresar"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginLeft="8dp"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
